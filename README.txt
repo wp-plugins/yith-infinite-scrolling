@@ -22,6 +22,8 @@ No more loading times caused by the change of the page, well, no more pages for 
 * Simple and direct navigation, even from a mobile device
 * Transition effect
 
+Full documentation is available [here](http://yithemes.com/docs-plugins/yith-infinite-scrolling/).
+
 
 == Installation ==
 
