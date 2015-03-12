@@ -11,9 +11,13 @@ Add infinite scolling to archive post or shop page.
 
 == Description ==
 **They want it all right away!**
+
 People have become used to see contents online in a sequential way: think about Facebook or Twitter, two navigation systems that now influence how we browse the web. With **YITH Infinite Scrolling**, we have decided to apply this idea for an **immediate and direct consultation** of the page contents!
+
 No more loading times caused by the change of the page, well, no more pages for a unique category of elements! Everything will come in a single solution, where users, even from a mobile device, will be able to simply scroll down and **get the details they seek right away**, without being afraid to lose them loading a new page.
-**Main features**
+
+**Main features:**
+
 * The infinite scrolling offers an amount of products all showed at once
 * Simple and direct navigation, even from a mobile device
 * Transition effect
