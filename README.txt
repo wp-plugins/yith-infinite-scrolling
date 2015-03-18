@@ -3,7 +3,7 @@ Contributors: yithemes
 Tags: yith, woocommerce, infinite scrolling, woocommerce infinite scrolling, yit, blog infinite scrolling, blog, infinite, scrolling, ajax pagination, infinite scroll, load more
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,11 @@ Full documentation is available [here](http://yithemes.com/docs-plugins/yith-inf
 
 == Changelog ==
 
+= 1.0.1 =
+
+* Minor bugfix
+* Fixed plugin core
+
 = 1.0.0 =
 
 * Initial release
@@ -63,6 +68,7 @@ If you have created your own language pack, or have an update for an existing on
 
 == Upgrade notice ==
 
-= 1.0.0 =
+= 1.0.1 =
 
-* Initial release
+* Minor bugfix
+* Fixed plugin core

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YITH Infinite Scrolling\n"
-"POT-Creation-Date: 2015-03-12 09:50+0100\n"
-"PO-Revision-Date: 2015-03-12 09:50+0100\n"
+"POT-Creation-Date: 2015-03-18 15:03+0100\n"
+"PO-Revision-Date: 2015-03-18 15:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: YIThemes <plugins@yithemes.com>\n"
 "Language: en\n"
@@ -17,8 +17,8 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../includes/class.yith-infs-admin.php:168
-#: ../includes/class.yith-infs-admin.php:191
+#: ../includes/class.yith-infs-admin.php:167
+#: ../includes/class.yith-infs-admin.php:190
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1048
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1196
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1202
@@ -26,27 +26,18 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: ../includes/class.yith-infs-admin.php:198
-#: ../includes/class.yith-infs-admin.php:199
+#: ../includes/class.yith-infs-admin.php:169
+#: ../includes/class.yith-infs-admin.php:194
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/class.yith-infs-admin.php:200
+#: ../includes/class.yith-infs-admin.php:201
 msgid "Infinite Scrolling"
 msgstr ""
 
-#: ../includes/class.yith-infs-admin.php:252
+#: ../includes/class.yith-infs-admin.php:253
 msgid "Plugin Documentation"
-msgstr ""
-
-#: ../includes/class.yith-infs-admin.php:269
-msgid "YITH Infinite Scrolling"
-msgstr ""
-
-#: ../includes/class.yith-infs-admin.php:270
-msgid ""
-"In the YIT Plugin tab you can find the YITH Infinite Scrolling options.\n"
-"\t\t\t\t\t\t\t\t\t\tWith this menu, you can access to all the settings of "
-"our plugins that you have activated.\n"
-"\t\t\t\t\t\t\t\t\t\tYITH Infinite Scrolling is available in an outstanding "
-"PREMIUM version with many new options,\n"
-"\t\t\t\t\t\t\t\t\t\t<a href=\""
 msgstr ""
 
 #: ../init.php:41
@@ -261,7 +252,7 @@ msgstr ""
 msgid "Add with multiupload"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel-wc.php:315
+#: ../plugin-fw/lib/yit-plugin-panel-wc.php:295
 msgid "The changes you have made will be lost if you leave this page."
 msgstr ""
 
@@ -269,74 +260,73 @@ msgstr ""
 msgid "Plugin Settings"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:94
+#: ../plugin-fw/lib/yit-plugin-panel.php:91
 #: ../plugin-fw/lib/yit-plugin-subpanel.php:101
 msgid "YIT Plugins"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:273
+#: ../plugin-fw/lib/yit-plugin-panel.php:280
 #: ../plugin-fw/lib/yit-plugin-subpanel.php:142
 #: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:5
 msgid "Save Changes"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:276
+#: ../plugin-fw/lib/yit-plugin-panel.php:283
 #: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:8
 msgid ""
 "If you continue with this action, you will reset all options in this page."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:278
+#: ../plugin-fw/lib/yit-plugin-panel.php:285
 #: ../plugin-fw/lib/yit-plugin-subpanel.php:147
-#: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
-msgid "Reset Defaults"
+msgid "Reset to Default"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:278
+#: ../plugin-fw/lib/yit-plugin-panel.php:285
 #: ../plugin-fw/lib/yit-plugin-subpanel.php:147
 #: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
 msgid "Are you sure?"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:412
+#: ../plugin-fw/lib/yit-plugin-panel.php:419
 msgid ""
 "The element you have entered already exists. Please, enter another name."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:413
+#: ../plugin-fw/lib/yit-plugin-panel.php:420
 msgid "Settings saved"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:414
+#: ../plugin-fw/lib/yit-plugin-panel.php:421
 msgid "Settings reset"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:415
+#: ../plugin-fw/lib/yit-plugin-panel.php:422
 msgid "Element deleted correctly."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:416
-#: ../plugin-fw/lib/yit-plugin-panel.php:417
+#: ../plugin-fw/lib/yit-plugin-panel.php:423
+#: ../plugin-fw/lib/yit-plugin-panel.php:424
 msgid "Element updated correctly."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:418
+#: ../plugin-fw/lib/yit-plugin-panel.php:425
 msgid "Database imported correctly."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:419
+#: ../plugin-fw/lib/yit-plugin-panel.php:426
 msgid "An error has occurred during import. Please try again."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:420
+#: ../plugin-fw/lib/yit-plugin-panel.php:427
 msgid "The added file is not valid."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:421
+#: ../plugin-fw/lib/yit-plugin-panel.php:428
 msgid "Sorry, import is disabled."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:422
+#: ../plugin-fw/lib/yit-plugin-panel.php:429
 msgid "Sorting successful."
 msgstr ""
 
@@ -460,48 +450,48 @@ msgstr ""
 msgid "Update Plugin"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:148
+#: ../plugin-fw/licence/lib/yit-licence.php:156
 #, php-format
 msgid "%field% field cannot be empty"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:149
+#: ../plugin-fw/licence/lib/yit-licence.php:157
 msgid "%field_1% and %field_2% fields cannot be empty"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:150
+#: ../plugin-fw/licence/lib/yit-licence.php:158
 msgid "Unable to contact the remote server, please try again later. Thanks!"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:529
+#: ../plugin-fw/licence/lib/yit-licence.php:537
 msgid "Invalid Request"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:530
+#: ../plugin-fw/licence/lib/yit-licence.php:538
 msgid "Invalid licence key"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:531
+#: ../plugin-fw/licence/lib/yit-licence.php:539
 msgid "Software has been deactivated"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:532
+#: ../plugin-fw/licence/lib/yit-licence.php:540
 msgid "Maximum number of activations exceeded"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:533
+#: ../plugin-fw/licence/lib/yit-licence.php:541
 msgid "Invalid instance ID"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:534
+#: ../plugin-fw/licence/lib/yit-licence.php:542
 msgid "Invalid security key"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:535
+#: ../plugin-fw/licence/lib/yit-licence.php:543
 msgid "Licence key has expired"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:536
+#: ../plugin-fw/licence/lib/yit-licence.php:544
 msgid "Licence key has been banned"
 msgstr ""
 
@@ -954,6 +944,10 @@ msgstr ""
 msgid "Italic bold"
 msgstr ""
 
+#: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
+msgid "Reset Defaults"
+msgstr ""
+
 #: ../plugin-options/general-options.php:10
 msgid "General Settings"
 msgstr ""
@@ -1000,4 +994,33 @@ msgstr ""
 
 #: ../plugin-options/general-options.php:81
 msgid "Upload a custom loading image"
+msgstr ""
+
+#: ../plugin-options/video-box.php:23
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr ""
+
+#: ../plugin-options/video-box.php:26 ../plugin-options/video-box.php:32
+msgid "YITH Infinite Scrolling"
+msgstr ""
+
+#: ../plugin-options/video-box.php:27
+msgid "Discover the Advanced Features"
+msgstr ""
+
+#: ../plugin-options/video-box.php:28
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH Infinite Scrolling to benefit from "
+"all features!"
+msgstr ""
+
+#: ../plugin-options/video-box.php:34
+msgid "Get Support and Pro Features"
+msgstr ""
+
+#: ../plugin-options/video-box.php:35
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
 msgstr ""

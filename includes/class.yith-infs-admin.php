@@ -69,12 +69,12 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 		/**
 		 * @var $_premium string Premium tab template file name
 		 */
-		//protected $_premium = 'premium.php';
+		protected $_premium = 'premium.php';
 
 		/**
 		 * @var string Premium version landing link
 		 */
-		//protected $_premium_landing = 'http://yithemes.com/themes/plugins/yith-infinite-scrolling/';
+		protected $_premium_landing = 'http://yithemes.com/themes/plugins/yith-infinite-scrolling/';
 
 		/**
 		 * @var string Infinite Scrolling panel page
@@ -131,7 +131,7 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 			add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 4 );
 
 			if ( ! ( defined( 'YITH_INFS_PREMIUM' ) && YITH_INFS_PREMIUM ) ) {
-				//add_action( 'yith_infinite_scrolling_premium', array( $this, 'premium_tab' ) );
+				add_action( 'yith_infinite_scrolling_premium', array( $this, 'premium_tab' ) );
 			}
 
 			// YITH INFS Loaded
@@ -166,7 +166,7 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 
 			$links[] = '<a href="' . admin_url( "admin.php?page={$this->_panel_page}" ) . '">' . __( 'Settings', 'yith-infs' ) . '</a>';
 			if ( ! ( defined( 'YITH_INFS_PREMIUM' ) && YITH_INFS_PREMIUM ) ) {
-				//$links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'yith-infs' ) . '</a>';
+				$links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'yith-infs' ) . '</a>';
 			}
 			return $links;
 		}
@@ -187,9 +187,12 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 			}
 
 			$admin_tabs = array(
-				'general' => __( 'Settings', 'yith-infs' ),
-				//'premium'  => __( 'Premium Version', 'yith-infs' ),
+				'general' => __( 'Settings', 'yith-infs' )
 			);
+
+			if ( ! ( defined( 'YITH_INFS_PREMIUM' ) && YITH_INFS_PREMIUM ) ) {
+				$admin_tabs['premium']  = __( 'Premium Version', 'yith-infs' );
+			}
 
 			$args = array(
 				'create_menu_page' => true,
@@ -201,7 +204,7 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 				'plugin-url'       => YITH_INFS_URL,
 				'page'             => $this->_panel_page,
 				'admin-tabs'       => $admin_tabs,
-				'options-path'     => YITH_INFS_DIR . '/plugin-options',
+				'options-path'     => YITH_INFS_DIR . 'plugin-options',
 			);
 
 			/* === Fixed: not updated theme  === */
@@ -247,9 +250,8 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 		 */
 		public function plugin_row_meta( $plugin_meta, $plugin_file, $plugin_data, $status ) {
 
-			if ( defined( 'YITH_INFS_FREE_INIT' ) && YITH_INFS_FREE_INIT == $plugin_file ) {
-				$plugin_meta[] = '<a href="' . $this->doc_url . '" target="_blank">' . __( 'Plugin Documentation', 'yith-infs' ) . '</a>';
-			}
+			$plugin_meta[] = '<a href="' . $this->doc_url . '" target="_blank">' . __( 'Plugin Documentation', 'yith-infs' ) . '</a>';
+
 			return $plugin_meta;
 		}
 
