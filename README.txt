@@ -37,6 +37,12 @@ Full documentation is available [here](http://yithemes.com/docs-plugins/yith-inf
 
 == Changelog ==
 
+= 1.0.2 =
+
+* Added compatibility with Wordpress 4.2
+* Fixed plugin documentation link
+* Fixed plugin core
+
 = 1.0.1 =
 
 * Minor bugfix
@@ -68,7 +74,7 @@ If you have created your own language pack, or have an update for an existing on
 
 == Upgrade notice ==
 
-= 1.0.1 =
+= 1.0.2 =
 
-* Minor bugfix
+* Fixed plugin documentation link
 * Fixed plugin core

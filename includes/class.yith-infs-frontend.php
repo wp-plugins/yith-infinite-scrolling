@@ -109,7 +109,7 @@ if ( ! class_exists( 'YITH_INFS_Frontend' ) ) {
 				'itemSelector'      => $itemSelector,
 				'contentSelector'   => $contentSelector,
 				'loader'            => $loader,
-				'shop'              => function_exists( 'WC' ) && is_shop(),
+				'shop'              => function_exists( 'WC' ) && ( is_shop() || is_product_category() || is_product_tag() ),
 			));
 		}
 	}

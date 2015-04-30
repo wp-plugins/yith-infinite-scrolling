@@ -250,7 +250,10 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 		 */
 		public function plugin_row_meta( $plugin_meta, $plugin_file, $plugin_data, $status ) {
 
-			$plugin_meta[] = '<a href="' . $this->doc_url . '" target="_blank">' . __( 'Plugin Documentation', 'yith-infs' ) . '</a>';
+			if ( defined( 'YITH_INFS_FREE_INIT' ) && YITH_INFS_FREE_INIT == $plugin_file ||
+				 defined( 'YITH_INFS_INIT') && YITH_INFS_INIT == $plugin_file ) {
+				$plugin_meta[] = '<a href="' . $this->doc_url . '" target="_blank">' . __( 'Plugin Documentation', 'yith-infs' ) . '</a>';
+			}
 
 			return $plugin_meta;
 		}
