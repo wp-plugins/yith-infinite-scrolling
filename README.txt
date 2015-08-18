@@ -7,7 +7,7 @@ Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add infinite scolling to archive post or shop page.
+Add infinite scrolling to archive post or shop page.
 
 == Description ==
 **They want it all right away!**
